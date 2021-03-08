@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-boot-sample</artifactId>
+        <groupId>com.demon</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>demo-sample-test</artifactId>
+    <description>业务 - 测试</description>
+
+
+    <dependencies>
+        <!-- 自定义 公共类  -->
+        <dependency>
+            <groupId>com.demon</groupId>
+            <artifactId>demo-sample-common</artifactId>
+            <version>1.0.0</version>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+</project>

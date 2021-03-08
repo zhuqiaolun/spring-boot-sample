@@ -1,0 +1,9 @@
+# 设置
+server:
+  port: 8787
+  servlet:
+    context-path: /
+spring:
+  profiles:
+    active: common
+
